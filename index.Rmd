@@ -19,21 +19,34 @@ source("code/graficos_latam.R")
 Sys.setlocale(locale = "es_ES.UTF-8")
 ```
 
-<h2>Casos **confirmados** por país y por millón de habitates</h2>
+<h2 style = color: #000000;>
+    Casos<span style = "color: #e61b72"> confirmados</span> por país y por millón de habitates
+</h2>
+
 <h4>Gráfico interactivo: Pase el mouse sobre el gráfico y seleccione, en la parte derecha, los países que quiera comparar.</h4>
 ```{r, include=T, echo = F}
 millon_confirmados
 ```
 <br>
 <br>
-<h2>Nuevos casos **confirmados** por día desde paciente '0' en cada país</h2>
+
+<h2 style = color: #000000;>
+    Nuevos casos<span style = "color: #e61b72"> confirmados</span> por día desde paciente '0' en cada país
+</h2>
+
 <h4>Gráfico interactivo: Pase el mouse sobre el gráfico y seleccione, en la parte de abajo, los países que quiera comparar. El ancho de cada color determina la proporción de ese país sobre el total</h4>
 <br>
 ```{r, include=T, echo = F}
 incidencia_confirmados
 ```
 <br>
-<center><h2>Casos confirmados **acumulados** por día desde paciente '0' en cada país</h2></center>
+
+<h2 style = color: #000000;>
+    Casos confirmados<span style = "color: #e61b72"> acumulados</span> por día desde paciente '0' en cada país
+</h2>
+
+<br>
+
 <center><h4>Gráfico interactivo: Pase el mouse sobre el gráfico y seleccione, en la parte de abajo, los países que quiera comparar.El ancho de cada color determina la proporción de ese país sobre el total</h4></center>
 ```{r, include=T, echo = F}
 rio_confirmados
