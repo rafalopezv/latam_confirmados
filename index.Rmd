@@ -48,6 +48,7 @@ Elaboración propia con base en los datos de [Jhons Hopkins University](https://
 <br>
 <br>
 <br>
+
 <h2 style = color: #000000;>
     Casos confirmados<span style = "color: #e61b72"> <b>acumulados</b></span> por día desde paciente '0' en cada país
 </h2>
@@ -57,6 +58,7 @@ Elaboración propia con base en los datos de [Jhons Hopkins University](https://
 ```{r, include=T, echo = F}
 rio_confirmados
 ```
+
 <small><small><small>
 Elaboración propia con base en los datos de [Jhons Hopkins University](https://github.com/CSSEGISandData/COVID-19), [Banco Mundial](https://datos.bancomundial.org/indicador/SP.POP.TOTL) y [CIA](https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html)
 </small></small></small>
