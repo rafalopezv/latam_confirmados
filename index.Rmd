@@ -20,7 +20,7 @@ Sys.setlocale(locale = "es_ES.UTF-8")
 ```
 
 <h2 style = color: #000000;>
-    Casos<span style = "color: #e61b72"> <b>confirmados</b></span> por país y por millón de habitates
+    Casos<span style = "color: #e61b72"> <b>confirmados</b></span> por país y por millón de habitantes
 </h2>
 
 <h4>Gráfico interactivo: Pase el mouse sobre el gráfico y seleccione, en la parte derecha, los países que quiera comparar.</h4>
