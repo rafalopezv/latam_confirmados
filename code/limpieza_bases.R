@@ -128,4 +128,5 @@ df %>%
   bind_rows() %>% 
   filter(!is.na(incidencia)) -> df_mundo 
 
-rm(df)
+df_mundo %>% 
+  rio::export("/Users/rafalopezv/Desktop/base.xlsx")
