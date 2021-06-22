@@ -1,9 +1,9 @@
 {
-    "path" : "~/Documents/latam_confirmados",
-    "sortOrder" : [
+    "path": "~/Documents/latam_confirmados",
+    "sortOrder": [
         {
-            "ascending" : true,
-            "columnIndex" : 2
+            "columnIndex": 2,
+            "ascending": true
         }
     ]
 }
